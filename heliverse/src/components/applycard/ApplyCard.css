@@ -1,0 +1,26 @@
+body{
+  background-color: #03002e;
+}
+.feature-images {
+  text-align: center;
+}
+.feature-heading {
+  color: white;
+  font-family: 'Sora', sans-serif; 
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-wrapper {
+  width: 65%;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}

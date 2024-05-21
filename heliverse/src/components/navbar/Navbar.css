@@ -1,0 +1,58 @@
+
+body {
+  margin: 0; 
+  padding-top: 60px;
+}
+.navbar {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 97%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c2c2c;
+  padding: 10px 20px;
+  font-family: 'Sora', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 20px; 
+  margin-right: 0; 
+}
+
+.site-name {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.envato {
+  color: #fff;
+}
+
+.market {
+  color: #a3cc39;
+}
+
+.navbar-right .buy-now {
+  background: linear-gradient(45deg, #91c846, #7bb236);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.navbar-right .buy-now:hover {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  
+}
